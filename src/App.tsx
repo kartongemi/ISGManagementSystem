@@ -13,7 +13,6 @@ import { DocumentRequirements } from './pages/DocumentRequirements'
 import { DocumentApproval } from './pages/DocumentApproval'
 import { AIAssistant } from './pages/AIAssistant'
 import { PlaceholderPage } from './pages/PlaceholderPage'
-import { Inspection } from './pages/Inspection'
 import { useAuthStore } from './stores/authStore'
 import { LoginPage } from './pages/LoginPage'
 import { supabase } from "./lib/supabase";
@@ -53,7 +52,7 @@ function App() {
       case 'risk-management':
         return <PlaceholderPage title="Tehlike–Risk Yönetimi" />
       case 'inspection':
-        return <Inspection />
+        return <PlaceholderPage title="Saha / Denetim & Gözlem" />
       case 'incidents':
         return <PlaceholderPage title="Olay / Kaza / Ramak Kala" />
       case 'capa':

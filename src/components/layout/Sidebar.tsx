@@ -38,7 +38,7 @@ const menuItems = [
   { id: 'system-users', label: 'Sistem Kullanıcıları', icon: Shield, active: true, requiresRole: null, allowedRoles: ['center_manager', 'project_manager'] },
   { id: 'personnel', label: 'Personel Yönetimi', icon: Users, active: true, requiresRole: null },
   { id: 'risk-management', label: 'Tehlike–Risk Yönetimi', icon: AlertTriangle, active: false, requiresRole: null },
-  { id: 'inspection', label: 'Saha / Denetim & Gözlem', icon: ClipboardCheck, active: true, requiresRole: null },
+  { id: 'inspection', label: 'Saha / Denetim & Gözlem', icon: ClipboardCheck, active: false, requiresRole: null },
   { id: 'incidents', label: 'Olay / Kaza / Ramak Kala', icon: AlertCircle, active: false, requiresRole: null },
   { id: 'capa', label: 'Aksiyon & İyileştirme', icon: CheckSquare, active: false, requiresRole: null },
   { id: 'training', label: 'Eğitim & Yetkinlik', icon: GraduationCap, active: true, requiresRole: null },
